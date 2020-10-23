@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp ./src/client/0.0.1/index.html ./www",
+    "deploy": "surge ./www hateoas.dev"
   },
   "keywords": [],
   "author": "",
