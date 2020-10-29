@@ -1,3 +1,4 @@
+/* GLOBAL */
 html, body, h1, { font-size: 1rem; }
 html, body { height: 100%; }
 body {
@@ -14,4 +15,8 @@ img {
   width: 100%;
   image-rendering: auto;
   margin: 1rem;
+}
+/* TYPESETTING */
+body, h1, h2, h3, h4, h5, h6, p, span, dt, td, input, select, option {
+  font-family: 'Quicksand', sans-serif;
 }
