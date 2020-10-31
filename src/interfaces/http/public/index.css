@@ -10,6 +10,12 @@ body {
 	background-image: url(https://miro.medium.com/max/1908/1*-lo2Xy4F7GOuUjaTkj8YAA.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+}
+header {
+	position: relative;
+	top: -29vh;
+	left: -15vw;
 }
 h1 {
 	font-style: sans-serif;
