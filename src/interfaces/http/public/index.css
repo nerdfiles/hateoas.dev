@@ -10,6 +10,14 @@ body {
 	background-image: url(https://miro.medium.com/max/1908/1*-lo2Xy4F7GOuUjaTkj8YAA.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
+}
+header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  padding: 0 1rem;
 }
 h1 {
 	font-style: sans-serif;
@@ -23,3 +31,15 @@ img {
 body, h1, h2, h3, h4, h5, h6, p, span, dt, td, input, select, option {
   font-family: 'Quicksand', sans-serif;
 }
+a, a:link, a:default {
+  color: #fff;
+  opacity: 0.75;
+}
+a:hover {
+  opacity: 1;
+}
+a:focus {}
+a:active {
+  outline: 2px solid gold;
+}
+
